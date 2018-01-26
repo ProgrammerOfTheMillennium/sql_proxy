@@ -1,0 +1,1 @@
+add_library(proxy_lib proxy.cpp proxy.h)

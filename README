@@ -1,0 +1,14 @@
+mkdir bin && cd bin
+
+cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug .. && make -j5
+
+
+
+General --> Path and Symbols --> Tab [Symbols]
+__cplusplus     201103L
+
+
+
+
+
+task 1 - include all libraries
